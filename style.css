@@ -1,0 +1,82 @@
+#img-perfil{
+    width: 200px;
+}
+
+.rounded-circle {
+    border-radius: 40%!important;
+}
+
+#img-stack{
+    width: 300px;
+}
+
+.bg-primary{
+    background-color: #9BC1F0!important;
+}
+
+.nav-link{
+    color: #79A4D9!important;
+}
+
+.text-bg-primary {
+    background-color: #79A4D9!important;
+}
+
+.titulo-proyecto{
+    text-shadow: 2px 5px 30px #000000;
+}
+
+#proyecto-1{
+    background-image: url('imagenes/proyecto1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#proyecto-2{
+    background-image: url('imagenes/bootstrap.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#proyecto-3{
+    background-image: url('imagenes/automa.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#proyecto-4{
+    background-image: url('imagenes/matlab.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#proyecto-5{
+    background-image: url('imagenes/proyecto5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#proyecto-6{
+    background-image: url('imagenes/const.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-item{
+    height: 400px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #fd9843;
+    height: 5px;
+}
+
+.carousel-caption{
+    color:black;
+}
+
+.icono{
+    width: 50px;
+}
