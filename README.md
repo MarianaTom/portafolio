@@ -33,9 +33,10 @@ Ademas se incluyen "Google Fonts"
 
 ## 3. Demo 
 Aqui podras observar las capturas de pantalla sobre el como se veria esta pagína web con Bootstrap!
-![imagen]("./../imagenes/captura1.png)
-![imagen]("./../imagenes/captura2.png)
-![imagen]("./../imagenes/captura3.png)
+###### Cada proyecto te direcciona a los repositorios en "Github"
+![imagen]("./../imagenes/cap1.png)
+![imagen]("./../imagenes/cap2.png)
+![imagen]("./../imagenes/cap3.png)
 
 ## 4. Español
 El texto de la página web esta escrito en español, sin embargo las clases relacionadas con BootStrap se incluyen en inglés.
@@ -47,6 +48,7 @@ Usa esta lista para saber los requisitos mínimos del proyecto:
 - [ ] Aplicar tipos de selectores en CSS.
 - [ ] Sección `Header`, `main`, `footer`
 - [ ] Tener a la mano los elementos de Bootstrap necesarios para tu proyecto
+- [ ] Aplicar tu estilo de animación en un archivo tipo 'js'
 
 
 ####
