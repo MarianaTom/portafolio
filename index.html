@@ -11,7 +11,9 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
   <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body class="container-fluid p-0">
   <header class="d-flex justify-content-around py-2">
     <ul class="nav nav-pills">
@@ -23,22 +25,25 @@
     </ul>
   </header>
   <!-- Perfil (foto, descripción, imagen bonita) -->
-  <a href="#perfil"></a>
-  <section class="container my-5">
-    <article class="row p-4 pb-3 pt-lg-5 justify-content-center align-items-center rounded-2 border shadow-lg">
-      <div class="col-lg-12 d-flex flex-column align-items-center justify-content-center px-10 px-lg-10 pt-lg-1">
-        <img id="img-perfil" src="imagenes/perfilfoto.jpeg" class="img-thumbnail rounded-circle" alt="Foto de perfil">
-        <h1 class="display-6 fw-bold lh-1 text-body-emphasis">Mariana Torres</h1>
-        <p class="lead">Estudiante del septimo semestre en la carrera de Ingeniería en Sistemas y Telecomunicaciones -
-          UAEM Valle de México </p>
 
-      </div>
-      <div class="col-lg-4 align-items-center d-flex flex-column">
-        <img id="img-stack" src="imagenes/comput.png" class="img-fluid" alt="Stack">
-      </div>
-      <!-- <div class="col-lg-6 d-flex flex-column align-items-start justify-content-center py-3 py-lg-5 pt-lg-3">
-                <p>Lorem </p>
-            </div> -->
+  <a href="#perfil"></a>
+  <section class="container">
+    <article class="row p-4 pb-3 border shadow-lg">
+            <a href="#perfil"></a>
+            
+                <img id="img-perfil" src="imagenes/perfilfoto.jpeg" class="d-block mx-lg-auto img-fluid img-thumbnail rounded-circle" alt="Foto de perfil" loading="lazy"> 
+             
+              <div class="col-lg-6">
+                <h1 class=" mb-4" id="typewriter"></h1>
+                <p class="lead">Estudiante del septimo semestre en la carrera de Ingeniería en Sistemas y Telecomunicaciones -
+                  UAEM Valle de México </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-center">
+                  <div class="">
+                    <img id="img-stack" src="imagenes/comput.png" class="img-fluid justify-content-center" alt="Stack">
+                  </div>
+                </div>
+              </div>
+            </div>
     </article>
   </section>
   <!-- Secciones de mi página / links a otras páginas -->
@@ -46,7 +51,8 @@
     <div class="row rounded-3 border shadow-lg">
       <div class="col-4 p-5">
         <h5>Lenguajes</h5>
-        <p>Actualmente cuento con un conocimiento básico de algunos lenguajes de programación los cuales han sido aprendidos mediante curso y mi vida academica</p>
+        <p>Actualmente cuento con un conocimiento básico de algunos lenguajes de programación los cuales han sido
+          aprendidos mediante curso y mi vida academica</p>
         <p>
           <span class="badge rounded-pill text-bg-primary">HTML</span>
           <span class="badge rounded-pill text-bg-primary">CSS</span>
@@ -57,14 +63,16 @@
       </div>
       <div class="bg-primary col-4 p-5">
         <h5>Estudiante</h5>
-        <p> Me encuentro en el septimo semestre de la carrera de Ingenieria en sistemas en la Universidad Autonoma del Estado de México </p>
+        <p> Me encuentro en el septimo semestre de la carrera de Ingenieria en sistemas en la Universidad Autonoma del
+          Estado de México </p>
         <p>
           <span class="badge rounded-pill text-bg-dark">UAEM</span>
         </p>
       </div>
       <div class="col-4 p-5">
         <h5>Metas</h5>
-        <p>Me gustaria llegar a crear e implementar la  programacion en la creación de Apps que faciliten la vida o expliquen sobre la tecnología a adultos mayores</p>
+        <p>Me gustaria llegar a crear e implementar la programacion en la creación de Apps que faciliten la vida o
+          expliquen sobre la tecnología a adultos mayores</p>
         <p>
           <span class="badge rounded-pill text-bg-primary">"INTERNET PARA TODOS"</span>
         </p>
@@ -78,46 +86,52 @@
         <h2>Proyectos</h2>
         <a href="#proyectos"></a>
       </div>
-      <div class="row row-cols-1 row-cols-lg-3 m-0 align-items-stretch g-4">
+      <div class="row row-cols-2 row-cols-lg-3 m-0 align-items-stretch g-3">
         <div class="col">
+          <a href= "https://github.com/MarianaTom/clon-de-google" style="text-decoration:none;color:white">
           <div id="proyecto-1" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
             <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
-              <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">Clon de Google</h4>
+            <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold">Clon de Google</h4> </a>
             </div>
           </div>
         </div>
         <div class="col">
+          <a href= "https://github.com/MarianaTom/portafolio" style="text-decoration:none;color:white">
           <div id="proyecto-2" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
             <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
-              <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">Página web con Bootstrap</h4>
+              <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">Página web con Bootstrap</h4></a>
             </div>
           </div>
         </div>
         <div class="col">
+          <a href= "https://github.com/MarianaTom/automata-fd-en-c" style="text-decoration:none;color:white">
           <div id="proyecto-3" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
             <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
-              <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">Automata Finito Determinista </h4>
+              <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">Automata Finito Determinista </h4></a>
             </div>
           </div>
         </div>
         <div class="col">
+          <a href= "https://github.com/MarianaTom/elitismo-matlab" style="text-decoration:none;color:white">
           <div id="proyecto-4" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
             <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
-              <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">Elitismo Matlab</h4>
+              <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">Neural Network in Matlab</h4></a>
             </div>
           </div>
         </div>
         <div class="col">
+          <a href= "https://github.com/MarianaTom/calculadora-area-perimetro-java" style="text-decoration:none;color:white">
           <div id="proyecto-5" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
             <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
-              <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">Calculadora de Prismas en Java</h4>
+              <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">Calculadora de Área y perimetro en Java</h4></a>
             </div>
           </div>
         </div>
         <div class="col">
+          <a href= "https://drive.google.com/drive/folders/1A_XkGZDPpyCFB67uiBg2u4HVOcvI00Eh?usp=drive_link" style="text-decoration:none;color:white">
           <div id="proyecto-6" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
             <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
-              <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">Constancias</h4>
+              <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">Constancias</h4></a>
             </div>
           </div>
         </div>
@@ -200,20 +214,23 @@
     </div>
   </section>
   <!-- Contacto -->
-  
+
   <footer class="bg-dark text-secondary py-5 text-center">
     <div class="py-5">
-        <h2 class="display-5 fw-bold text-white">Contactame</h2>
-        <div class="col-lg-6 mx-auto">
-            <p class="fs-5 mb-4"> marianitalmj@gmail.com</p>
-            <p class="fs-5 mb-4"> https://github.com/MarianaTom</p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <i class="icono bi bi-github"></i>
-            </div>
+      <h2 class="display-5 fw-bold text-white">Contactame</h2>
+      <div class="col-lg-6 mx-auto">
+        <p class="fs-5 mb-4"> marianitalmj@gmail.com</p>
+        <p class="fs-5 mb-4"> https://github.com/MarianaTom</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <i class="icono bi bi-github"></i>
         </div>
+      </div>
     </div>
-</footer>
-      
+  </footer>
+
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="main.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
