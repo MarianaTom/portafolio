@@ -13,13 +13,13 @@ El presente proyecto es creado para el Bootcamp de **Tecnolochicas PRO Summer Ca
 
 Es una página web responsiva (adaptable a diversos tamaños de pantalla). 🖥💻📱
 
-El proposito de el sitio web es mostrar el portafolio de proyectos de un(a) desarrollador(a) y su experiencia. 
+El proposito de el sitio web es mostrar el portafolio de proyectos de un(a) desarrollador(a) y su experiencia. 😎🤓
 
-Incluye una descripción de su motivacion, experiencia, proyectos, árticulos publicados y formas de contacto. 
+Incluye una descripción de su motivacion, experiencia, proyectos, árticulos publicados y formas de contacto. 📞📲
 
 Tambien contiene una sección de almacenamiento de archivos *(imágenes)* que nos permiten modificar la imagen de perfil del desarrollador y contiene una animación desarrollada con JavaScrip 
 
-Para visitar mi página web visita el siguiente Link 👉 https://sweet-begonia-4fcce3.netlify.app/
+Para visitar mi página web visita el siguiente Link 👉 https://vocal-pie-7e740c.netlify.app
 
 ## 2. Tenologías utilizadas para el proyecto 
 
@@ -39,7 +39,7 @@ Aqui podras observar las capturas de pantalla sobre el como se veria esta pagín
 ![imagen]("./../imagenes/cap3.png)
 
 ## 4. Español
-El texto de la página web esta escrito en español, sin embargo las clases relacionadas con BootStrap se incluyen en inglés.
+El texto de la página web esta escrito en español, sin embargo las clases relacionadas con BootStrap se incluyen en inglés. 🌸
 
 ## 5. Requisitos
 Usa esta lista para saber los requisitos mínimos del proyecto:
@@ -54,5 +54,5 @@ Usa esta lista para saber los requisitos mínimos del proyecto:
 ####
 
 ## 6. Contacto
-Desarrollado por: "Mariana Torres" en Tecnolochicas Summer Pro 
+Desarrollado por: "Mariana Torres" en Tecnolochicas Summer Pro  💜💜💜
 [Mariana Torres](https://github.com/MarianaTom)
